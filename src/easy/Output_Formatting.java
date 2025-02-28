@@ -41,17 +41,17 @@ public class Output_Formatting {
         public static void main(String[] args) {
 
             Scanner sc = new Scanner(System.in);
-            
+
             String line = "================================";
 
             System.out.println(line);
 
-            for(int i = 0; i < 3; i++) {
+            for (int i = 0; i < 3; i++) {
                 String s = sc.next();
                 int n = sc.nextInt();
                 System.out.printf("%-15s%03d\n", s, n);
             }
-
+            sc.close();
             System.out.println(line);
 
         }
